@@ -3,10 +3,14 @@
  * (c) 2013-2013 GoCardless, Ltd.
  * https://github.com/gocardless-ng/ng-gc-popover-directive.git
  * License: MIT
- */angular.module('popover-template.html', []).run(function($templateCache) {
+ */
+(function(){
+'use strict';
+
+angular.module('popover-template.html', []).run(['$templateCache', function($templateCache) {
   $templateCache.put('popover-template.html',
     '<div ng-transclude="" ng-show="show"></div>');
-});
+}]);
 
 'use strict';
 
@@ -42,3 +46,4 @@ angular.module('gc.popover', [
 
   }
 ]);
+})();
