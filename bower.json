@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "main": "ng-gc-popover-directive.js",
   "dependencies": {
-    "bower-angular": "git@github.com:angular/bower-angular.git#v1.2.0-rc.2"
+    "bower-angular": "git@github.com:angular/bower-angular.git#v1.2.0-rc.2",
+    "ng-gc-dialog-directive": "git@github.com:gocardless-ng/ng-gc-dialog-directive.git",
+    "dialog.js": "git@github.com:gocardless/dialog.js.git"
   },
   "devDependencies": {
     "bower-angular-mocks": "git@github.com:angular/bower-angular-mocks.git#v1.2.0-rc.2",
